@@ -1,8 +1,7 @@
 function findMatching(array, string) {
-  const drivers = array.filter(
+  return array.filter(
     (driver) => driver.toLowerCase() === string.toLowerCase()
   );
-  return drivers;
 }
 
 function fuzzyMatch(array, string) {
